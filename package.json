@@ -5,6 +5,7 @@
   "private": true,
   "scripts": {
     "build": "ionic-app-scripts build",
+    "test": "ng test --code-coverage",
     "watch": "ionic-app-scripts watch",
     "serve:before": "watch",
     "emulate:before": "build",
