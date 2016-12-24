@@ -1,6 +1,9 @@
 {
   "compilerOptions": {
     "allowSyntheticDefaultImports": true,
+    "types": [
+      "jasmine"
+    ],
     "declaration": false,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
