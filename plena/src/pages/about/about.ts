@@ -7,9 +7,14 @@ import { NavController } from 'ionic-angular';
   templateUrl: './about.html'
 })
 export class AboutPage {
+  public whatItsAbout: string;
 
   constructor(public navCtrl: NavController) {
+    this.whatItsAbout = "nothing";
 
   }
 
+  public setWhatItsAllAbout(value: string):void {
+    this.whatItsAbout = value;
+  }
 }
